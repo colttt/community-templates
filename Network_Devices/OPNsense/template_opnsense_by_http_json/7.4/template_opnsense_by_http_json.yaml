@@ -10,7 +10,7 @@ zabbix_export:
       template: 'OPNsense by HTTP-JSON'
       name: 'OPNsense by HTTP-JSON'
       vendor:
-        name:
+        name: 'community'
         version: '0.20'
       groups:
         - name: 'Templates/Network devices'
