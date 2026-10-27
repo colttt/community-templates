@@ -1,3 +1,4 @@
+# /etc/sudoers.d/zabbix-openzfs
 Defaults:zabbix !requiretty
 zabbix ALL=(root) NOPASSWD: /usr/sbin/zpool list -Hp -o name\,guid\,size\,alloc\,free\,cap\,frag\,health --json
 zabbix ALL=(root) NOPASSWD: /usr/sbin/zpool status -j --json-flat-vdevs --json-int
