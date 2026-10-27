@@ -8,7 +8,12 @@ zabbix_export:
       template: 'OpenZFS by Zabbix agent 2'
       name: 'OpenZFS by Zabbix agent 2'
       description: |
+        Author: colttt
+        
         OpenZFS 2.3 on Linux with Zabbix Agent 2, native zpool/zfs commands and /proc/spl/kstat/zfs.
+      vendor:
+        name: 'community-templates'
+        version: '7.0-1'
       groups:
         - name: 'Templates/Operating systems'
       items:
