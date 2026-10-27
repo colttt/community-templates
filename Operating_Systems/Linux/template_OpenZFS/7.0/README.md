@@ -1,5 +1,7 @@
 # OpenZFS by Zabbix agent 2
 
+Author: colttt
+
 Monitoring template for **OpenZFS 2.3 on Linux** and **Zabbix 7.0 LTS**, using **passive Zabbix Agent 2 checks**.
 
 The template uses native `zpool` / `zfs` commands, Linux ZFS kernel statistics, dependent items, low-level discovery (LLD), JSONPath and built-in Zabbix preprocessing.
